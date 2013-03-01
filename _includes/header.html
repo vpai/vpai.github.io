@@ -1,0 +1,23 @@
+<div id="header">
+	<h1 id="name">
+		{% if page.title == "Home" %}
+			Varun Pai
+		{% else %}
+			{{ page.title }}
+		{% endif %}
+	</h1>
+
+	<div id="belowline">
+		{% if page.title == "Home" %}
+			<ul id="navlist">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Photos</a></li>
+				<li><a href="#">Songs</a></li>
+			</ul>
+		{% else %}
+			<p id="post_data">Posted on {{ page.date | date: "%B %d, %Y" }}</p>
+		{% endif %}
+	</div>
+</div>

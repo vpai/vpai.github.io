@@ -1,0 +1,30 @@
+---
+layout: base
+title: Home 
+---
+
+<div id="intro">
+	<p>I am currently an undergraduate at the University of California, Berkeley, where I study Electrical Engineering and Computer Science. I am also fascinated by human psychology and photography. 
+	Find me on <a href="http://github.com/vpai">Github</a>, <a href="http://www.linkedin.com/pub/varun-pai/2b/863/468">LinkedIn</a>, <a href="http://www.quora.com/Varun-Pai-1">Quora</a>, <a href="http://www.twitter.com/lifeofpai">Twitter</a>, or say hello at varunpai12 at gmail dot com.</p>
+
+	<br>
+	<p>Please excuse the incompleteness of this page. I started building it late in Februrary 2013, so tons is yet to come!</p>
+</div>
+
+<div id="writings_grouped">
+	<h2>Blog</h2>
+	<br>
+	{% for post in site.posts %}
+	<a href="{{ post.url }}">
+		<div class="posts">
+			<h4 class="post_title">{{ post.title }}</h4>
+			<h4 class="post_date">{{ post.date | date: "%B %d, %Y" }}</h4>
+		</div>
+	</a>
+	{% endfor %}
+</div>
+
+
+
+
+
