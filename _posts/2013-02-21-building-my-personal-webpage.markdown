@@ -3,7 +3,6 @@ layout: post
 title: Creating My Personal Webpage using Jekyll
 ---
 
-Woohoo 
 In this post I will explain how to go about quickly setting up [static webpages](http://en.wikipedia.org/wiki/Static_web_page) like
 this one using an awesome tool called Jekyll. Jekyll is a great tool to use if you are interested in making a personal 
 webpage, a blog, or a simple website for an organization. In particular, if you're looking to start a blog, writing your own code using something like Jekyll offers 
