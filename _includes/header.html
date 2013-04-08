@@ -1,23 +1,19 @@
 <div id="header">
-	<h1 id="name">
+	
+	<h2 id="name" class="pull-left">
 		{% if page.title == "Home" %}
 			Varun Pai
 		{% else %}
 			{{ page.title }}
 		{% endif %}
-	</h1>
+	</h2>
 
-	<div id="belowline">
-		{% if page.title == "Home" %}
-			<ul id="navlist">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Photos</a></li>
-				<li><a href="#">Songs</a></li>
-			</ul>
-		{% else %}
-			<p id="post_data">Posted on {{ page.date | date: "%B %d, %Y" }}</p>
-		{% endif %}
-	</div>
+	<ul class="nav nav-pills pull-right" id="menu">
+		<li><a target="_blank" href="http://www.twitter.com/lifeofpai" class="link">Twitter</a></li>
+		<li><a target="_blank" href="http://www.linkedin.com/pub/varun-pai/2b/863/468" class="link">LinkedIn</a></li>
+		<li><a target="_blank" href="http://www.quora.com/Varun-Pai-1" class="link">Quora</a></li>
+		<li><a target="_blank" href="http://github.com/vpai" class="link">Github</a></li>
+		<li><a href="mailto:varunpai12@gmail.com" class="link">Email</a></li>
+	</ul>
+
 </div>

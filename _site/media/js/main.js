@@ -1,13 +1,13 @@
 $(document).ready(function() {
-	$("h1").click(function() {
-		alert("hello world");
-	});
 
-	$(".posts").hover(function() {
-		$(this).fadeTo(250, 1);
-	}, function() {
-		$(this).fadeTo(250, 0.5);	
-	});
+	function scrollToAnchor(aid){
+	    var aTag = $("a[name='"+ aid +"']");
+	    $('html,body').animate({scrollTop: aTag.offset().top});
+	}
 
+	$(".link").click(function() {
+		var text = $(this).text().toLowerCase();
+		scrollToAnchor(text);
+	});
 });
 

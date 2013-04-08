@@ -1,114 +1,48 @@
-/* Begin General */
-
-html {
-	height: 100%;
+html, body {
+    height: 100%;
+    overflow: auto;
 }
 
 body {
-	font: 16px/23px 'Colaborate-ThinRegular', "Droid Sans", Arial, "Helvetica Neue", "Lucida Grande", sans-serif;
-	margin: 0;
-	padding: 0;
-	height: 100%;
-};
-
-h1, h2, h3, h4, h5, h6, p, ul {
-	padding: 0;
-	margin: 0;
-}
-
-h4 {
-	font-weight: 800;
+	border: 10px solid black;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #blackbar {
 	height: 10px;
 	width: 100%;
 	background: black;
+	margin-bottom: 40px;
 }
 
-#content {
-	padding-top: 20px;
-	padding-bottom: 10px;
+#menu {
+	padding-top: 15px;
 }
 
-#name {
-	border-bottom: 2px solid orange;
-	padding-bottom: 15px;
-}
-
-#navlist {
-	float: right;
-	padding: 0;
-}
-
-#belowline {
+#header {
 	overflow: auto;
-	margin-top: 10px;
+	border-bottom: 1px solid grey;
+	margin-bottom: 20px;
 }
 
-#navlist li {
-	display: inline;
-	list-style-type: none;
-}
-
-#navlist a {
-	padding: 0px 5px;
-}
-
-a {
-	text-decoration: none;
-	color: blue;
-}
-
-#container {
-	overflow: auto;
-	width: 50%;
-	min-height: 100%;
-	margin: 100px auto;
-	position: relative;
-}
-
-.posts {
-	background: grey;
-	padding: 3px 5px;
-	margin-bottom: 5px;
-	border-radius: 2px;
-	overflow: auto;
-	opacity: 0.5;
-	color: white;
-}
-
-.post_date {
-	display: block;
-	float: right;
-}
-
-.post_title {
-	display: block;
-	float: left;
-}
-
-#intro {
-	padding-top: 5px;
+#post_title {
+	padding-bottom: 5px;
 	margin-bottom: 30px;
+	border-bottom: 1px solid grey;
 }
 
-/* Begin Footer */
-
-#footer {
-	width: 100%;
-	height: 10px;
-	background: black;
-	position: absolute;
-	bottom: 0;
+[class^="icon-"], [class*=" icon-"] {
+	margin: 11px 0 0 10px;
 }
 
-/* End Footer */
-/* Begin Fonts  */
-
-@font-face {
-  font-family: 'Colaborate-ThinRegular';
-  src: url('../fonts/ColabThi.ttf');
+.section ul {
+	margin: 0;
+	list-style: none;
 }
 
-/* End Fonts */
+#blog {
+	padding-right: 20px;
+}
+
+
