@@ -1,7 +1,0 @@
----
-layout
----
-
-Wasted potential
-
-

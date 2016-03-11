@@ -1,48 +1,24 @@
-html, body {
-    height: 100%;
-    overflow: auto;
-}
+ul {
+  padding: 0; }
 
 body {
-	border: 10px solid black;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+  font: 12px Avenir, sans-serif;
+  padding: 20px 0; }
 
-#blackbar {
-	height: 10px;
-	width: 100%;
-	background: black;
-	margin-bottom: 40px;
-}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
 
-#menu {
-	padding-top: 15px;
-}
+ul {
+  list-style: none; }
+  ul li {
+    display: inline-block;
+    width: 90px; }
+  ul a {
+    text-decoration: none; }
 
-#header {
-	overflow: auto;
-	border-bottom: 1px solid grey;
-	margin-bottom: 20px;
-}
+.container {
+  width: 545px;
+  margin: 0 auto; }
 
-#post_title {
-	padding-bottom: 5px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid grey;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-	margin: 11px 0 0 10px;
-}
-
-.section ul {
-	margin: 0;
-	list-style: none;
-}
-
-#blog {
-	padding-right: 20px;
-}
-
-
+.text-center {
+  text-align: center; }

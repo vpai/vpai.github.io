@@ -1,0 +1,39 @@
+---
+---
+
+// Reset browser defaults.
+
+ul {
+  padding: 0;
+}
+
+body {
+  font: 12px Avenir, sans-serif;
+  padding: 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+
+  li {
+    display: inline-block;
+    width: 90px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.container {
+	width: 545px;
+	margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
