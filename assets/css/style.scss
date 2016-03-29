@@ -64,9 +64,21 @@ $container-width: 545px;
 .post {
   img {
     width: $container-width;
+    height: $container-width;
   }
 
   .date {
     color: #D0021B;
   }
+}
+
+.img-with-caption__image {
+  position: relative;
+}
+
+.img-with-caption__caption {
+  position: absolute;
+  left: 558px;
+  bottom: 0px;
+  width: 100px;
 }
