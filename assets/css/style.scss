@@ -62,19 +62,8 @@ $container-width: 550px;
   margin-top: 50px; }
 
 .post {
-  // General image.
   img {
     width: $container-width;
-    height: $container-width;
-  }
-
-  // Thumbnails.
-  img.thumbnail {
-    height: 50px;
-    width: 50px;
-    float: left;
-    padding-right: 5px;
-    padding-bottom: 5px;
   }
 
   .date {
