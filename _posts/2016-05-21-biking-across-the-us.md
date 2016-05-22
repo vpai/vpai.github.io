@@ -1,9 +1,13 @@
 ---
 layout: post
 title: I'm riding my 🚲 across 🇺🇸 this summer
+tags:
+- biking
+- usa
+- bike & build
 ---
 
-The date is quickly approaching — in just a few weeks I'll be hopping on a bicycle and riding over
+The date is quickly approaching — in just a few weeks I'll be hopping on a bicycle and pedaling over
 3800 miles across North America (!). I'll be 1 of 32 humans riding from Portland, Maine west
 to Santa Barbara, California over the course of 2.5 months along the following route:
 
@@ -17,7 +21,7 @@ to Santa Barbara, California over the course of 2.5 months along the following r
 {% include section_break.html %}
 
 We're doing this ride through an organization called [Bike & Build](http://bikeandbuild.org/).
-Its purpose is to bring together young people from across the country and engage them a summer
+Its purpose is to bring together young people from across the country and engage them in a summer
 dedicated to benefiting *affordable housing* via annual bike journeys across the US. Learn more
 about B&B below:
 
@@ -84,7 +88,5 @@ T-minus 27 days till we get going. Before then I'm hoping to set up a static pag
 my photos on a map as I progress these next few weeks, and will link to that page here.
 
 Lastly, anyone wishing to help me can do so here:
-http://classic.bikeandbuild.org/rider/8758. I'm about 75% through my fundraising goal but still
-need a little push in order to reach the $4500 I need.
-
-Varun
+[http://classic.bikeandbuild.org/rider/8758](http://classic.bikeandbuild.org/rider/8758). I'm about
+75% through my fundraising goal but still need a little push in order to reach the $4500 I need.

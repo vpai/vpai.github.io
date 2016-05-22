@@ -2,6 +2,7 @@
 ---
 
 $container-width: 550px;
+$coral: #f08080;
 
 .container {
   width: $container-width;
@@ -65,10 +66,6 @@ $container-width: 550px;
   img {
     width: $container-width;
   }
-
-  .date {
-    color: #D0021B;
-  }
 }
 
 .img-with-caption__image {
@@ -88,4 +85,26 @@ $container-width: 550px;
 
 .gallery {
   overflow: auto;
+}
+
+// TAGS.
+
+.tags {
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+}
+
+.tag {
+  background: $coral;
+  border-radius: 15px;
+  color: white;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
 }
