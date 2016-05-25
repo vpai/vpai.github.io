@@ -90,6 +90,5 @@ and to be offering whatever we can to their communities.
 T-minus 27 days till we get going. Before then I'm hoping to set up another page that will overlay
 my photos on a map as I progress along the route.
 
-Lastly, anyone wishing to help me can do so here:
-[http://classic.bikeandbuild.org/rider/8758](http://classic.bikeandbuild.org/rider/8758). I'm about
+Lastly, anyone wishing to help me can do so [here](http://classic.bikeandbuild.org/cms/component/option,com_wrapper/Itemid,118/?item_name_1=8758). I'm about
 75% through my fundraising goal but still need a little push in order to reach the $4500 I need.
