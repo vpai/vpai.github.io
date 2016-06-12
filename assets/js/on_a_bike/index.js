@@ -316,13 +316,11 @@ const cityData = {
   }
 }
 
-const mapStyles = [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}];
-
 function App({ cityData }) {
   return (
     <div className="row">
-      <div className="col-3 space-top-5">
-        <div className="sidebar">
+      <div className="col-3">
+        <div className="sidebar section-padding">
           <Header {...{ cityData }} />
           <div className="space-4"></div>
           <MailDropSchedule />
@@ -331,7 +329,6 @@ function App({ cityData }) {
 
       <div className="col-9">
         <GoogleMap />
-        <div className="space-4"></div>
         <RecentPhotos />
       </div>
     </div>
@@ -393,9 +390,6 @@ class GoogleMap extends React.Component {
       zoom: 4,
     });
 
-    // Water color.
-    map.setOptions({ styles: mapStyles });
-
     // Directions renderer.
     const rendererOptions = { map };
     const directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions)
@@ -405,7 +399,7 @@ class GoogleMap extends React.Component {
     var request = {
       origin: 'Portland, Maine',
       destination: 'Chicago',
-      travelMode: google.maps.TravelMode.WALKING
+      travelMode: google.maps.TravelMode.BICYCLING
     };
 
     // Set up DirectionsService.
@@ -473,7 +467,7 @@ class RecentPhotos extends React.Component {
     ));
 
     return (
-      <div>
+      <div className="section-padding">
         <h1 className="space-2">Recent Photos</h1>
         <div className="grid">
           {images}
