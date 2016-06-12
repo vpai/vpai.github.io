@@ -1,5 +1,6 @@
 const START_DATE = '6/17/2016';
-const INSTAGRAM_URL = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=4825414.0491d83.a1e2666fe4194ce5b1de215b49d6e00d&count=20s';
+const INSTAGRAM_URL = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=4825414.0491d83.a1e2666fe4194ce5b1de215b49d6e00d&count=30';
+const NUM_DAYS = 0;
 
 const cityData = {
   "6/17/2016": {
@@ -16,15 +17,15 @@ const cityData = {
   },
   "6/20/2016": {
    "city": "Kittery, ME",
-   "miles": 5
+   "miles": 65
   },
   "6/21/2016": {
    "city": "Andover, MA",
-   "miles": 2
+   "miles": 62
   },
   "6/22/2016": {
    "city": "Fitchburg, MA",
-   "miles": 1
+   "miles": 41
   },
   "6/23/2016": {
    "city": "Build Day",
@@ -32,11 +33,11 @@ const cityData = {
   },
   "6/24/2016": {
    "city": "Northampton, MA",
-   "miles": 0
+   "miles": 60
   },
   "6/25/2016": {
    "city": "Pittsfield, MA",
-   "miles": 1
+   "miles": 41
   },
   "6/26/2016": {
    "city": "Build Day",
@@ -44,23 +45,23 @@ const cityData = {
   },
   "6/27/2016": {
    "city": "Poughkeepsie, NY",
-   "miles": 2
+   "miles": 82
   },
   "6/28/2016": {
    "city": "Port Jervis, NY",
-   "miles": 9
+   "miles": 59
   },
   "6/29/2016": {
    "city": "Mount Pocono, PA",
-   "miles": 5
+   "miles": 55
   },
   "6/30/2016": {
    "city": "Berwick, PA",
-   "miles": 5
+   "miles": 45
   },
   "7/1/2016": {
    "city": "State College, PA",
-   "miles": 0
+   "miles": 100
   },
   "7/2/2016": {
    "city": "Build Day",
@@ -68,11 +69,11 @@ const cityData = {
   },
   "7/3/2016": {
    "city": "Johnstown, PA",
-   "miles": 5
+   "miles": 85
   },
   "7/4/2016": {
    "city": "Pittsburgh, PA",
-   "miles": 9
+   "miles": 79
   },
   "7/5/2016": {
    "city": "Day Off",
@@ -80,107 +81,107 @@ const cityData = {
   },
   "7/6/2016": {
    "city": "Cadiz, OH",
-   "miles": 7
+   "miles": 77
   },
   "7/7/2016": {
    "city": "Coshocton, OH",
-   "miles": 7
+   "miles": 67
   },
   "7/8/2016": {
    "city": "Columbus, IN",
-   "miles": 7
+   "miles": 77
   },
   "7/9/2016": {
    "city": "Build Day",
    "miles": 0
   },
-  "7/0/2016": {
+  "7/10/2016": {
    "city": "Build Day",
    "miles": 0
   },
-  "7/1/2016": {
+  "7/11/2016": {
    "city": "Dayton, OH",
-   "miles": 5
+   "miles": 55
   },
-  "7/2/2016": {
+  "7/12/2016": {
    "city": "Rushville, IN",
-   "miles": 2
+   "miles": 102
   },
-  "7/3/2016": {
+  "7/13/2016": {
    "city": "Bloomington, IL",
-   "miles": 6
+   "miles": 86
   },
-  "7/4/2016": {
+  "7/14/2016": {
    "city": "Build Day",
    "miles": 0
   },
-  "7/5/2016": {
+  "7/15/2016": {
    "city": "Lawrenceville, IL",
-   "miles": 5
+   "miles": 95
   },
-  "7/6/2016": {
+  "7/16/2016": {
    "city": "Salem, IL",
-   "miles": 1
+   "miles": 61
   },
-  "7/7/2016": {
+  "7/17/2016": {
    "city": "St. Louis, MO",
-   "miles": 2
+   "miles": 82
   },
-  "7/8/2016": {
+  "7/18/2016": {
    "city": "Build Day",
    "miles": 0
   },
-  "7/9/2016": {
+  "7/19/2016": {
    "city": "Bluffton, MO",
-   "miles": 4
+   "miles": 74
   },
-  "7/0/2016": {
+  "7/20/2016": {
    "city": "Osage Lake, MO",
-   "miles": 2
+   "miles": 82
   },
-  "7/1/2016": {
+  "7/21/2016": {
    "city": "Springfield, MO",
-   "miles": 4
+   "miles": 94
   },
-  "7/2/2016": {
+  "7/22/2016": {
    "city": "Build Day",
    "miles": 0
   },
-  "7/3/2016": {
+  "7/23/2016": {
    "city": "Joplin, MO",
-   "miles": 0
+   "miles": 80
   },
-  "7/4/2016": {
+  "7/24/2016": {
    "city": "Vinita, OK",
-   "miles": 9
+   "miles": 59
   },
-  "7/5/2016": {
+  "7/25/2016": {
    "city": "Tulsa, OK",
-   "miles": 9
+   "miles": 69
   },
-  "7/6/2016": {
+  "7/26/2016": {
    "city": "Build Day",
    "miles": 0
   },
-  "7/7/2016": {
+  "7/27/2016": {
    "city": "Chandler, OK",
-   "miles": 9
+   "miles": 69
   },
-  "7/8/2016": {
+  "7/28/2016": {
    "city": "Yukon, OK",
-   "miles": 4
+   "miles": 64
   },
-  "7/9/2016": {
+  "7/29/2016": {
    "city": "Foss, TX",
-   "miles": 9
+   "miles": 89
   },
-  "7/0/2016": {
+  "7/30/2016": {
    "city": "Shamrock, TX",
-   "miles": 8
+   "miles": 78
   },
-  "7/1/2016": {
+  "7/31/2016": {
    "city": "Amarillo, TX",
-   "miles": 7
+   "miles": 97
   },
   "8/1/2016": {
    "city": "Build Day",
@@ -192,15 +193,15 @@ const cityData = {
   },
   "8/3/2016": {
    "city": "Friona, TX",
-   "miles": 1
+   "miles": 71
   },
   "8/4/2016": {
    "city": "Portales, NM",
-   "miles": 6
+   "miles": 56
   },
   "8/5/2016": {
    "city": "Roswell, NM",
-   "miles": 9
+   "miles": 89
   },
   "8/6/2016": {
    "city": "Day Off",
@@ -208,107 +209,107 @@ const cityData = {
   },
   "8/7/2016": {
    "city": "Carrizozo, NM",
-   "miles": 9
+   "miles": 89
   },
   "8/8/2016": {
    "city": "Socorro, NM",
-   "miles": 6
+   "miles": 76
   },
   "8/9/2016": {
    "city": "Pie Town, NM",
-   "miles": 4
+   "miles": 84
   },
-  "8/0/2016": {
+  "8/10/2016": {
    "city": "Springerville, AZ",
-   "miles": 1
+   "miles": 71
   },
-  "8/1/2016": {
+  "8/11/2016": {
    "city": "Heber-Overgaard, AZ",
-   "miles": 6
+   "miles": 56
   },
-  "8/2/2016": {
+  "8/12/2016": {
    "city": "Payson, AZ",
-   "miles": 4
+   "miles": 54
   },
-  "8/3/2016": {
+  "8/13/2016": {
    "city": "Build Day",
    "miles": 0
   },
-  "8/4/2016": {
+  "8/14/2016": {
    "city": "Cottonwood, AZ",
-   "miles": 2
+   "miles": 72
   },
-  "8/5/2016": {
+  "8/15/2016": {
    "city": "Build Day",
    "miles": 0
   },
-  "8/6/2016": {
+  "8/16/2016": {
    "city": "Flagstaff, AZ",
-   "miles": 0
+   "miles": 50
   },
-  "8/7/2016": {
+  "8/17/2016": {
    "city": "Grand Canyon South Rim, AZ",
-   "miles": 8
+   "miles": 78
   },
-  "8/8/2016": {
+  "8/18/2016": {
    "city": "Day Off",
    "miles": 0
   },
-  "8/9/2016": {
+  "8/19/2016": {
    "city": "Williams, AZ",
-   "miles": 9
+   "miles": 59
   },
-  "8/0/2016": {
+  "8/20/2016": {
    "city": "Build Day",
    "miles": 0
   },
-  "8/1/2016": {
+  "8/21/2016": {
    "city": "Seligman, AZ",
-   "miles": 2
+   "miles": 42
   },
-  "8/2/2016": {
+  "8/22/2016": {
    "city": "Kingman, AZ",
-   "miles": 7
+   "miles": 87
   },
-  "8/3/2016": {
+  "8/23/2016": {
    "city": "Needles, AZ",
-   "miles": 3
+   "miles": 53
   },
-  "8/4/2016": {
+  "8/24/2016": {
    "city": "Bagdad, CA",
-   "miles": 0
+   "miles": 70
   },
-  "8/5/2016": {
+  "8/25/2016": {
    "city": "Calico, CA",
-   "miles": 0
+   "miles": 110
   },
-  "8/6/2016": {
+  "8/26/2016": {
    "city": "Victorville, CA",
-   "miles": 1
+   "miles": 81
   },
-  "8/7/2016": {
+  "8/27/2016": {
    "city": "Wrightwood, CA",
-   "miles": 2
+   "miles": 42
   },
-  "8/8/2016": {
+  "8/28/2016": {
    "city": "Palmdale, CA",
-   "miles": 7
+   "miles": 37
   },
-  "8/9/2016": {
+  "8/29/2016": {
    "city": "Build Day",
    "miles": 0
   },
-  "8/0/2016": {
+  "8/30/2016": {
    "city": "Santa Clarita, CA",
-   "miles": 0
+   "miles": 40
   },
-  "8/1/2016": {
+  "8/31/2016": {
    "city": "Santa Paula, CA",
-   "miles": 5
+   "miles": 35
   },
   "9/1/2016": {
    "city": "Santa Barbara, CA",
-   "miles": 0
+   "miles": 40
   },
   "9/2/2016": {
    "city": "Santa Barbara, CA",
@@ -316,19 +317,22 @@ const cityData = {
   }
 }
 
+const mapStyles = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#193341"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#2c5a71"}]},{"featureType":"road","elementType":"geometry","stylers":[{"color":"#29768a"},{"lightness":-37}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#406d80"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#406d80"}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#3e606f"},{"weight":2},{"gamma":0.84}]},{"elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"weight":0.6},{"color":"#1a3541"}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#2c5a71"}]}];
+
 function App({ cityData }) {
   return (
     <div className="row">
-      <div className="col-3">
+      <div className="col-3 sidebar-container">
         <div className="sidebar section-padding">
           <Header {...{ cityData }} />
           <div className="space-4"></div>
           <MailDropSchedule />
+          <Links />
         </div>
       </div>
 
       <div className="col-9">
-        <GoogleMap />
+        <GoogleMap cityData={cityData} />
         <RecentPhotos />
       </div>
     </div>
@@ -337,7 +341,7 @@ function App({ cityData }) {
 
 function Header({ cityData }) {
   let body;
-  const todaysDate = moment();
+  const todaysDate = moment().add(NUM_DAYS, 'days');
   const todaysDateKey = todaysDate.format('M/D/YYYY');
   const todaysDateDisplay = todaysDate.format('MMMM Do, YYYY');
 
@@ -346,30 +350,36 @@ function Header({ cityData }) {
 
   if (dayNumber === -1) {
     // Either before or after the trip.
-    const daysToStart = moment(START_DATE).diff(moment(todaysDateKey), 'days');
+    const daysToStart = moment(START_DATE).diff(todaysDate, 'days');
 
     body = (
       <div>
-        <h2 className="space-2"><strong>The Scoop</strong></h2>
         <p>
-          Varun's trip starts in <span className="color--light_blue">{daysToStart}</span> days.
+          Varun's trip starts in <span className="color--light_blue">{daysToStart}</span> days
+          from Portland, Maine.
         </p>
       </div>
     )
   } else {
     // Else, continue.
-    const milesCompleted = dates.slice(todaysDateKey).map((date) => (
+    const milesCompleted = dates.slice(0, dayNumber).map((date) => (
       cityData[date].miles
     )).reduce((a, b) => (a + b));
 
     const currentCity = cityData[todaysDateKey].city;
 
+    let message;
+    if (currentCity === "Build Day") {
+      message = <p>Varun is currently on a Build Day, where he and his team are building houses!</p>
+    } else {
+      message = <p>Varun is currently in <span className="color--medium_blue">{currentCity}.</span></p>
+    };
+
     body = (
       <div>
-        <h2 className="space-2"><strong>The Latest</strong></h2>
         <p>Today is <span className="color--light_blue">{todaysDateDisplay}</span>.</p>
-        <p>Varun is currently in <span className="color--medium_blue">{currentCity}.</span></p>
-        <p>He's completed <span>{milesCompleted}</span> miles so far.</p>
+        {message}
+        <p>He's biked <span>{milesCompleted}</span> miles so far.</p>
       </div>
     );
   }
@@ -377,7 +387,21 @@ function Header({ cityData }) {
   return (
     <div>
       <h1 className="space-3">Varun On A Bike</h1>
-      {body}
+
+      <p className="space-3">
+        Hey! I'm Varun. From June 20th through September 1st, I'll be riding my bicycle from
+        Portland, Maine to Santa Barbara, California through <a href="http://bikeandbuild.org/">Bike & Build</a> to benefit affordable housing.
+        Drop by here any time to see
+        where I am, what I'm seeing, and what I'm thinking.
+      </p>
+
+      <div className="space-3">
+        <h2 className="space-2"><strong>The Latest 🕒</strong></h2>
+        {body}
+      </div>
+
+      <h2 className="space-2"><strong>The Blog ✏️</strong></h2>
+      <p>Find some thoughts <a href="https://medium.com/shifting-gears">here</a>.</p>
     </div>
   );
 }
@@ -388,18 +412,23 @@ class GoogleMap extends React.Component {
     const map = new google.maps.Map(mapElement, {
       center: {lat: 37.09024, lng: -95.712891},
       zoom: 4,
+      mapTypeControl: false,
     });
+
+    map.setOptions({styles: mapStyles});
 
     // Directions renderer.
     const rendererOptions = { map };
     const directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions)
-    directionsDisplay.setOptions({ preserveViewport: true });
+    directionsDisplay.setOptions({
+      preserveViewport: true,
+    });
 
     // Directions request.
     var request = {
       origin: 'Portland, Maine',
-      destination: 'Chicago',
-      travelMode: google.maps.TravelMode.BICYCLING
+      destination: this.destination(),
+      travelMode: google.maps.TravelMode.BICYCLING,
     };
 
     // Set up DirectionsService.
@@ -411,6 +440,29 @@ class GoogleMap extends React.Component {
       }
     });
   }
+
+  destination() {
+    let destination;
+    const todaysDate = moment().add(NUM_DAYS, 'days');
+    const todaysDateKey = todaysDate.format('M/D/YYYY');
+    const todaysDateDisplay = todaysDate.format('MMMM Do, YYYY');
+
+    const dates = Object.keys(cityData);
+    const dayNumber = dates.indexOf(todaysDateKey);
+
+    if (dayNumber === -1) {
+      destination = 'Portland, Maine'
+    } else {
+      destination = cityData[todaysDateKey].city;
+
+      if (destination == "Build Day") {
+        destination = cityData[moment().add(NUM_DAYS, 'days').subtract(1, 'day').format('M/D/YYYY')].city;
+      }
+    }
+
+    return destination;
+  }
+
 
   render() {
     return (
@@ -447,7 +499,7 @@ class RecentPhotos extends React.Component {
     }).always(() => {
       $('.grid').masonry({
         itemSelector: '.grid-item',
-        columnWidth: 270,
+        columnWidth: 255,
       });
     });
   }
@@ -456,11 +508,9 @@ class RecentPhotos extends React.Component {
     const images = this.state.images.map((image) => (
       <div className="grid-item">
         <div className="grid-item__container">
-          <p className="space-1">
-            Taken at: <b>{image.location}</b>
-          </p>
+          <p>Taken at: <b>{image.location}</b></p>
 
-          <img src={image.url} />
+          <img className="space-top-2" src={image.url} />
           <p><i>{image.caption}</i></p>
         </div>
       </div>
@@ -488,8 +538,8 @@ function RecentTweets({ cityData }) {
 
 function MailDropSchedule() {
   return (
-    <div>
-      <h2 className="space-2"><strong>Mail Schedule</strong></h2>
+    <div className="mail space-5">
+      <h2 className="space-2"><strong>Send Him Mail ✉️</strong></h2>
       <div>
         <p>June 22, 2016</p>
         <p>477 Main Street, Fitchburg, MA 01420</p>
@@ -534,6 +584,16 @@ function MailDropSchedule() {
         <p>August 31, 2016</p>
         <p>111 S. Mill St., Santa Paula, CA 93060</p>
       </div>
+    </div>
+  );
+}
+
+function Links() {
+  return (
+    <div className="links">
+      <h2 className="space-2"><strong>Other Links</strong></h2>
+      <p><a href="https://twitter.com/lifeofpai">Twitter</a></p>
+      <p><a href="mailto:varunpai12@gmail.com">Email</a></p>
     </div>
   );
 }
