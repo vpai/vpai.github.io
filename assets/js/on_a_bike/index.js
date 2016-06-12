@@ -1,3 +1,6 @@
+const START_DATE = '6/17/2016';
+const INSTAGRAM_URL = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=4825414.0491d83.a1e2666fe4194ce5b1de215b49d6e00d&count=20s';
+
 const cityData = {
   "6/17/2016": {
    "city": "Portland, ME",
@@ -313,35 +316,71 @@ const cityData = {
   }
 }
 
+const mapStyles = [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}];
+
 function App({ cityData }) {
   return (
-    <div>
-      <Header {...{ cityData }} />
-      <GoogleMap />
-      <RecentPhotos />
-      <RecentTweets />
+    <div className="row">
+      <div className="col-3 space-top-5">
+        <div className="sidebar">
+          <Header {...{ cityData }} />
+          <div className="space-4"></div>
+          <MailDropSchedule />
+        </div>
+      </div>
+
+      <div className="col-9">
+        <GoogleMap />
+        <div className="space-4"></div>
+        <RecentPhotos />
+      </div>
     </div>
   );
 }
 
 function Header({ cityData }) {
-  const todaysDate = moment().add(20, 'days').format('M/D/YYYY');
+  let body;
+  const todaysDate = moment();
+  const todaysDateKey = todaysDate.format('M/D/YYYY');
+  const todaysDateDisplay = todaysDate.format('MMMM Do, YYYY');
+
   const dates = Object.keys(cityData);
-  const dayNumber = dates.indexOf(todaysDate);
+  const dayNumber = dates.indexOf(todaysDateKey);
 
-  const milesCompleted = dates.slice(dayNumber).map((date) => (
-    cityData[date].miles
-  )).reduce((a, b) => (
-    a + b
-  ));
+  if (dayNumber === -1) {
+    // Either before or after the trip.
+    const daysToStart = moment(START_DATE).diff(moment(todaysDateKey), 'days');
 
-  const currentCity = cityData[todaysDate].city;
+    body = (
+      <div>
+        <h2 className="space-2"><strong>The Scoop</strong></h2>
+        <p>
+          Varun's trip starts in <span className="color--light_blue">{daysToStart}</span> days.
+        </p>
+      </div>
+    )
+  } else {
+    // Else, continue.
+    const milesCompleted = dates.slice(todaysDateKey).map((date) => (
+      cityData[date].miles
+    )).reduce((a, b) => (a + b));
+
+    const currentCity = cityData[todaysDateKey].city;
+
+    body = (
+      <div>
+        <h2 className="space-2"><strong>The Latest</strong></h2>
+        <p>Today is <span className="color--light_blue">{todaysDateDisplay}</span>.</p>
+        <p>Varun is currently in <span className="color--medium_blue">{currentCity}.</span></p>
+        <p>He's completed <span>{milesCompleted}</span> miles so far.</p>
+      </div>
+    );
+  }
 
   return (
     <div>
-      <p>Today is <span>{todaysDate}</span></p>
-      <p>Varun is currently in <span>{currentCity}</span></p>
-      <p>He's completed <span>{milesCompleted}</span> miles so far</p>
+      <h1 className="space-3">Varun On A Bike</h1>
+      {body}
     </div>
   );
 }
@@ -350,9 +389,12 @@ class GoogleMap extends React.Component {
   componentDidMount() {
     const mapElement = ReactDOM.findDOMNode(this.refs.map);
     const map = new google.maps.Map(mapElement, {
-      center: {lat: 39.5, lng: -98.35},
-      zoom: 3,
+      center: {lat: 37.09024, lng: -95.712891},
+      zoom: 4,
     });
+
+    // Water color.
+    map.setOptions({ styles: mapStyles });
 
     // Directions renderer.
     const rendererOptions = { map };
@@ -388,7 +430,60 @@ class GoogleMap extends React.Component {
   }
 }
 
-function RecentPhotos({ cityData }) {
+class RecentPhotos extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { images: [] };
+  }
+
+  componentDidMount() {
+    $.get({
+      url: INSTAGRAM_URL,
+      dataType: "jsonp",
+      success: (response) => {
+        const images = response.data.map((img) => (
+          Object.assign(img.images.standard_resolution, {
+            link: img.link,
+            location: img.location.name,
+            caption: img.caption.text,
+          })
+        ));
+        this.setState({ images: images });
+      },
+    }).always(() => {
+      $('.grid').masonry({
+        itemSelector: '.grid-item',
+        columnWidth: 270,
+      });
+    });
+  }
+
+  render() {
+    const images = this.state.images.map((image) => (
+      <div className="grid-item">
+        <div className="grid-item__container">
+          <p className="space-1">
+            Taken at: <b>{image.location}</b>
+          </p>
+
+          <img src={image.url} />
+          <p><i>{image.caption}</i></p>
+        </div>
+      </div>
+    ));
+
+    return (
+      <div>
+        <h1 className="space-2">Recent Photos</h1>
+        <div className="grid">
+          {images}
+        </div>
+      </div>
+    );
+  }
+}
+
+function RecentTweets({ cityData }) {
   return (
     <div>
       map
@@ -397,11 +492,54 @@ function RecentPhotos({ cityData }) {
   );
 }
 
-function RecentTweets({ cityData }) {
+function MailDropSchedule() {
   return (
     <div>
-      map
-      {/* Fill in with recent photos. */}
+      <h2 className="space-2"><strong>Mail Schedule</strong></h2>
+      <div>
+        <p>June 22, 2016</p>
+        <p>477 Main Street, Fitchburg, MA 01420</p>
+        <br />
+
+        <p>June 29, 2016</p>
+        <p>11 Pine Hill Rd, Mt. Pocono, PA 18344</p>
+        <br />
+
+        <p>July 6, 2016</p>
+        <p>100 E. South St., Cadiz, OH 43907</p>
+        <br />
+
+        <p>July 13, 2016</p>
+        <p>230 W. 3rd St., Rushville, IN 46173</p>
+        <br />
+
+        <p>July 20, 2016</p>
+        <p>405 MO-42, Kaiser, MO 65047</p>
+        <br />
+
+        <p>July 27, 2016</p>
+        <p>123 W. 9th St., Chandler, OK 74834</p>
+        <br />
+
+        <p>August 3, 2016</p>
+        <p>1010 S. Main St., Friona, TX 79035</p>
+        <br />
+
+        <p>August 10, 2016</p>
+        <p>5 E. Main St., Springerville, AZ 85938</p>
+        <br />
+
+        <p>August 17, 2016</p>
+        <p>10 Mather Business Center, Grand Canyon Village, AZ 86023</p>
+        <br />
+
+        <p>August 24, 2016</p>
+        <p>87525 National Trails Hwy., Amboy, CA 92304</p>
+        <br />
+
+        <p>August 31, 2016</p>
+        <p>111 S. Mill St., Santa Paula, CA 93060</p>
+      </div>
     </div>
   );
 }

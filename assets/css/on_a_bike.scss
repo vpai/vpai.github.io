@@ -1,0 +1,113 @@
+---
+---
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app-container {
+  .gmap {
+    width: 100%;
+    height: 700px;
+  }
+
+  .sidebar {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.grid-item {
+  width: 270px;
+  padding-bottom: 15px;
+
+  img {
+    height: 240px;
+    width: 240px;
+  }
+}
+
+.grid-item__container {
+  width: 240px;
+  padding: 10px;
+  border: 1px solid rgba(216, 216, 216, .5);
+}
+
+.row {
+  width: 100%;
+}
+
+row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.col-1 {
+  width: 8.33333%;
+  float: left; }
+
+.col-2 {
+  width: 16.66667%;
+  float: left; }
+
+.col-3 {
+  width: 25%;
+  float: left; }
+
+.col-4 {
+  width: 33.33333%;
+  float: left; }
+
+.col-5 {
+  width: 41.66667%;
+  float: left; }
+
+.col-6 {
+  width: 50%;
+  float: left; }
+
+.col-7 {
+  width: 58.33333%;
+  float: left; }
+
+.col-8 {
+  width: 66.66667%;
+  float: left; }
+
+.col-9 {
+  width: 75%;
+  float: left; }
+
+.col-10 {
+  width: 83.33333%;
+  float: left; }
+
+.col-11 {
+  width: 91.66667%;
+  float: left; }
+
+.col-12 {
+  width: 100%;
+  float: left; }
+
+
+// Colors
+
+.color--light_blue {
+  color: #30ADF5;
+}
+
+.color--medium_blue {
+  color: #137EA9;
+
+}

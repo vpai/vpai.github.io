@@ -24,7 +24,7 @@
 	</head>
 
 	<body>
-		<div class="container">
+		<div class="{% if page.container %}container{% endif %}">
 			{{ content }}
 		</div>
 	</body>
