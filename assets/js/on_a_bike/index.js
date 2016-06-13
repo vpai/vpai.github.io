@@ -1,3 +1,5 @@
+// If you're reading this let me just say up front that I know this code is terrible and hacked together. YOLO.
+
 const START_DATE = '6/17/2016';
 const INSTAGRAM_URL = 'https://api.instagram.com/v1/users/self/media/recent/?access_token=4825414.0491d83.a1e2666fe4194ce5b1de215b49d6e00d&count=30';
 const NUM_DAYS = 0;
@@ -592,8 +594,10 @@ function Links() {
   return (
     <div className="links">
       <h2 className="space-2"><strong>Other Links</strong></h2>
+      <p><a href="http://classic.bikeandbuild.org/rider/8758">Rider Page</a></p>
       <p><a href="https://twitter.com/lifeofpai">Twitter</a></p>
-      <p><a href="mailto:varunpai12@gmail.com">Email</a></p>
+      <p><a href="mailto:varunpai12+bbstatus@gmail.com">Email</a></p>
+      <p><a href="http://bikeandbuild.org/">Bike & Build Home</a></p>
     </div>
   );
 }
