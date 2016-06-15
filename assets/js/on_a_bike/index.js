@@ -329,6 +329,7 @@ function App({ cityData }) {
           <Header {...{ cityData }} />
           <div className="space-4"></div>
           <MailDropSchedule />
+          <Encouragement />
           <Links />
         </div>
       </div>
@@ -364,7 +365,7 @@ function Header({ cityData }) {
     )
   } else {
     // Else, continue.
-    const milesCompleted = dates.slice(0, dayNumber).map((date) => (
+    const milesCompleted = dates.slice(0, dayNumber + 1).map((date) => (
       cityData[date].miles
     )).reduce((a, b) => (a + b));
 
@@ -600,6 +601,32 @@ function Links() {
       <p><a href="http://bikeandbuild.org/">Bike & Build Home</a></p>
     </div>
   );
+}
+
+class Encouragement extends React.Component {
+  componentDidMount() {
+    var disqus_config = function () {
+      this.page.url = 'http://varunpai.me/on_a_bike';
+      this.page.identifier = '/on_a_bike';
+    };
+
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+
+        s.src = '//varunpai.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+  }
+
+  render() {
+    return (
+      <div>
+        <h2 className="space-top-6 space-3"><strong>Leave Encouragement ❤️</strong></h2>
+        <div id="disqus_thread"></div>
+      </div>
+    );
+  }
 }
 
 
