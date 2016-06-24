@@ -543,6 +543,8 @@ function MailDropSchedule() {
   return (
     <div className="mail space-5">
       <h2 className="space-2"><strong>Send Him Mail ✉️</strong></h2>
+      <p className="space-2">Make sure to include "Bike & Build" on the front of the envelope as well as 
+         "Attention: Varun Pai" so that the mail is allocated properly at the destination.</p>
       <div>
         <p>June 22, 2016</p>
         <p>477 Main Street, Fitchburg, MA 01420</p>
