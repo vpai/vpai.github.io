@@ -502,7 +502,7 @@ class RecentPhotos extends React.Component {
     }).always(() => {
       $('.grid').masonry({
         itemSelector: '.grid-item',
-        columnWidth: 240,
+        columnWidth: 255,
       });
     });
   }
