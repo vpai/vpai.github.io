@@ -543,8 +543,16 @@ function MailDropSchedule() {
   return (
     <div className="mail space-5">
       <h2 className="space-2"><strong>Send Him Mail ✉️</strong></h2>
-      <p>Make sure to include "Bike & Build" on the front of the envelope/package as well as 
-         "Attention: Varun Pai" so that the mail is allocated properly at the destination.</p>
+      <p>
+        There’s nothing better than receiving a post card after a long week of riding.
+        Below is a list of our mail drop cities and respective pick-up dates. Please make sure 
+        to have your packages there BEFORE that date! Late mail will be forwarded to the mail drop 
+        two weeks ahead. Late mail from the last two mail drops will be returned to sender.
+        
+        Make sure to include "Bike & Build" on the front of the envelope/package as well as 
+        "Attention: Varun Pai" and "General Delivery" in addition to the street address, city,
+        and zip code so that the mail is handled properly at the destination. 
+      </p>
       <div className="space-top-2">
         <p>June 22, 2016</p>
         <p>477 Main Street, Fitchburg, MA 01420</p>
