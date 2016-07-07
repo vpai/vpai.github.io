@@ -548,7 +548,9 @@ function MailDropSchedule() {
         Below is a list of our mail drop cities and respective pick-up dates. Please make sure 
         to have your packages there BEFORE that date! Late mail will be forwarded to the mail drop 
         two weeks ahead. Late mail from the last two mail drops will be returned to sender.
-        
+      </p>
+      
+      <p>
         Make sure to include "Bike & Build" on the front of the envelope/package as well as 
         "Attention: Varun Pai" and "General Delivery" in addition to the street address, city,
         and zip code so that the mail is handled properly at the destination. 
