@@ -1,6 +1,10 @@
-<div class="img-with-caption__image">
-  <img src="{{ include.url }}" alt="{{ include.alt }}"/>
+{% include spacer.html %}
+
+<div class="img-with-caption__container">
+  <img class="img-with-caption__image" src="{{ include.url }}" alt="{{ include.alt }}"/>
   <div class="img-with-caption__caption">
     <i>{{ include.caption }}</i>
   </div>
 </div>
+
+{% include spacer.html %}

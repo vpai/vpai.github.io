@@ -4,6 +4,10 @@
 $container-width: 550px;
 $coral: #f08080;
 
+p {
+  font-size: 14px;
+}
+
 .container {
   width: $container-width;
   margin: 0 auto;
@@ -77,11 +81,13 @@ $coral: #f08080;
 .post {
   img {
     width: $container-width;
+    border-radius: 5px;
   }
 }
 
-.img-with-caption__image {
+.img-with-caption__container {
   position: relative;
+
 }
 
 .img-with-caption__caption {

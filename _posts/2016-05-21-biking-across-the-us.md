@@ -14,10 +14,7 @@ to Santa Barbara, California over the course of 2.5 months along the following r
 
 {% include spacer.html %}
 
-{% include image_with_caption.html
-           url="https://bikeandbuild.org/wp-content/uploads/2015/09/ME2SB_2015_map_2.gif"
-           caption="The route I'll be biking this summer."
-           alt="single_unit" %}
+{% include image_with_caption.html url="https://bikeandbuild.org/wp-content/uploads/2015/09/ME2SB_2015_map_2.gif" caption="The route I'll be biking this summer." alt="single_unit" %}
 
 {% include spacer.html %}
 
@@ -55,10 +52,7 @@ which for me have always been a symbol of a certain legitness on the road:
 
 {% include spacer.html %}
 
-{% include image_with_caption.html
-           url="/assets/images/biking_across_america/clipless_shoes.jpg"
-           caption="Clipless pedals."
-           alt="single_unit" %}
+{% include image_with_caption.html url="/assets/images/biking_across_america/clipless_shoes.jpg" caption="Clipless pedals." alt="single_unit" %}
 
 {% include spacer.html %}
 
