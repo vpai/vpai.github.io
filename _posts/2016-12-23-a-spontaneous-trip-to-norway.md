@@ -2,6 +2,7 @@
 layout: post
 container: true
 title: A Spontaneous Trip To Norway
+location: Noe Valley, San Francisco
 tags:
 - norway
 - nature
