@@ -1,0 +1,137 @@
+---
+---
+
+@font-face {
+    font-family: 'si';
+    src: url('/assets/social_icons/socicon.eot');
+    src: url('/assets/social_icons/socicon.eot?#iefix') format('embedded-opentype'),
+         url('/assets/social_icons/socicon.woff') format('woff'),
+         url('/assets/social_icons/socicon.ttf') format('truetype'),
+         url('/assets/social_icons/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url('/assets/social_icons/socicon.svg') format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    margin-right: 13px;
+    color: #ffffff;
+    background-color: none;
+}
+
+.soc a:hover {
+    z-index: 2;
+
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter {
+    background-color: #4da7de;
+}
+.soc-twitter:before {
+    content:'\e040';
+}
+.soc-facebook {
+    background-color: #3e5b98;
+}
+.soc-facebook:before {
+    content:'\e041';
+}
+.soc-linkedin {
+    background-color: #3371b7;
+}
+.soc-linkedin:before {
+    content:'\e049';
+}
+.soc-rss {
+    background-color: #f26109;
+}
+.soc-rss:before {
+    content:'\e00b';
+}
+.soc-medium {
+    background-color: #000000;
+}
+.soc-medium:before {
+    content:'\e06d';
+}
+.soc-airbnb {
+    background-color: #ff5a5f;
+}
+.soc-airbnb:before {
+    content:'\e00e';
+}
+
+.soc-twitter:hover {
+    background-color: #61bbf2;
+}
+.soc-facebook:hover {
+    background-color: #526fac;
+}
+.soc-linkedin:hover {
+    background-color: #4785cb;
+}
+.soc-rss:hover {
+    background-color: #ff751d;
+}
+.soc-medium:hover {
+    background-color: #363636;
+}
+.soc-airbnb:hover {
+    background-color: #ff6e73;
+}

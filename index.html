@@ -7,6 +7,10 @@ title: Home
 <div>
   <h1 class="space-3">Varun Pai</h1>
 
+  <div class="space-3">
+    {% include social_icons.html %}
+  </div>
+
   <div class="space-6">
     {% for post in site.posts %}
       {% include post_summary.html url=post.url title=post.title %}
