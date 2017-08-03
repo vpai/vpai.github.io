@@ -23,9 +23,9 @@ So in February I quit a very stable, very comfortable job, and since have been t
 
 Why NYC? Some people ask. Why not NYC? I think. It's up there among the world's greatest cities, where one can encounter people from all walks of life and from all corners of the world in a single subway car. The art, the size, the speed, and the grandeur all excite me.
 
-My hopes/dreams/goals in The Big Apple include becoming an entertainer on the side (guitar), escaping the 9-5 and working for myself, trying my hand at bartending, consitently creating, finding 5 new friends that I actively love and that actively love me back, being excited about life each and every day, learning Japanese, and letting loose.
+My hopes/dreams/goals in The Big Apple include becoming an entertainer on the side (guitar), escaping the 9-5 and working for myself, trying my hand at bartending, consistently creating, finding 5 new friends that I actively love and that actively love me back, being excited about life each and every day, learning Japanese, and letting loose.
 
-Cheers to myself for this new life transition. No doubt it will be unsexy at first seeing as I have no job and no apartment. But hey, that'll be part of the challenge and the fun.
+Cheers to myself for this new life transition. No doubt it will be unsexy at first seeing as I have no job and no apartment. But hey, that'll be part of the challenge and the fun. Oh, I also have to buy a peacoat ASAP. Where does one buy that?
 
 {% include image_with_caption.html url="/assets/images/moving_to_nyc/peace.jpg" caption="Mood." %}
 

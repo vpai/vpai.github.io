@@ -13,7 +13,7 @@ Visiting India is always a treat. While growing up, we would usually go once in 
 
 Over the past few years, I've had the chance to visit the Motherland on my own terms. With a little disposable income under my belt, India feels like a new place. After quitting my job a couple months ago, I decided I would take a two week trip there to meet my mom and sister who were going to be there to do some wedding shopping for my sister's upcoming wedding.
 
-Mumbai was my home base, and Varanasi (a.k.a Banaras) as a small side trip. And it was fantastic. No thinking about work, lots of eating, a few events to celebrate, hanging with my 21 year old cousin, reading, and a few new friends.
+Mumbai was home base, and Varanasi (a.k.a Banaras) was a small side trip. And it was fantastic. No thinking about work, lots of eating, a few events to celebrate, hanging with my 21 year old cousin, reading, and a few new friends.
 
 April is an excellent time to visit as it is the beginning of the mango season (and before the monsoon season)! According to my uncle, the famed [Alphonso mango](https://en.wikipedia.org/wiki/Alphonso_(mango)) is not the king as is widely believed. Apparently the rise of Alphonsos was a marketing ruse led by the Tata group and the affluent Parsi community. Dasheri and banganpalli are in his opinion better. But to this American, they were all absolutely fantastic.
 
