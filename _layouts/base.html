@@ -28,8 +28,15 @@
 	</head>
 
 	<body>
-		<div class="{% if page.container %}container{% endif %}">
-			{{ content }}
+    <div class="hat"></div>
+		<div class="{% if page.container %}flex-container{% endif %}">
+      <nav>
+        {% include sidebar.html %}
+      </nav>
+
+      <main>
+        {{ content }}
+      </main>
 		</div>
 	</body>
 </html>

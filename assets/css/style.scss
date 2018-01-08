@@ -1,14 +1,12 @@
 ---
 ---
 
-$container-width: 550px;
-$coral: #f08080;
+// Colors.
 
-.container {
-  width: $container-width;
-  margin: 0 auto;
-  padding: 125px 0;
-}
+$coral: #f08080;
+$blue: blue;
+$yellow: #f7b731;
+$container-width: 550px;
 
 .pull-left {
   float: left;
@@ -27,46 +25,46 @@ $coral: #f08080;
 }
 
 .space-1 {
-  margin-bottom: 6.25px; }
+  margin-bottom: 5px; }
 
 .space-top-1 {
-  margin-top: 6.25px; }
+  margin-top: 5px; }
 
 .space-2 {
-  margin-bottom: 12.5px; }
+  margin-bottom: 10px; }
 
 .space-top-2 {
-  margin-top: 12.5px; }
+  margin-top: 10px; }
 
 .space-3 {
-  margin-bottom: 18.75px; }
+  margin-bottom: 15px; }
 
 .space-top-3 {
-  margin-top: 18.75px; }
+  margin-top: 15px; }
 
 .space-4 {
-  margin-bottom: 25px; }
+  margin-bottom: 20px; }
 
 .space-top-4 {
-  margin-top: 25px; }
+  margin-top: 20px; }
 
 .space-5 {
-  margin-bottom: 31.25px; }
+  margin-bottom: 25px; }
 
 .space-top-5 {
-  margin-top: 31.25px; }
+  margin-top: 25px; }
 
 .space-6 {
-  margin-bottom: 37.5px; }
+  margin-bottom: 30px; }
 
 .space-top-6 {
-  margin-top: 37.5px; }
+  margin-top: 30px; }
 
 .space-7 {
-  margin-bottom: 43.75px; }
+  margin-bottom: 35px; }
 
 .space-top-7 {
-  margin-top: 43.75px; }
+  margin-top: 35px; }
 
 .space-8 {
   margin-bottom: 50px; }
@@ -135,4 +133,89 @@ hr.section-break {
   text-decoration: none;
   -webkit-transition: color 0.2s;
 }
+
+.blue {
+  color: $blue;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.blue-dotted {
+  border-bottom: 2px dashed $blue;
+}
+
+.yellow-dotted {
+  border-bottom: 2px dashed $yellow;
+}
+
+// new stuff.
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+nav {
+  background-color: #F9F9F9;
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item p {
+  font-size: 14px;
+  text-align: center;
+}
+
+main {
+  flex-grow: 7;
+  overflow: auto;
+}
+
+main a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px dashed black;
+
+  &:hover {
+    color: darkorange;
+    border-bottom: 1px dashed darkorange;
+  }
+}
+
+section {
+  height: 100vh;
+  width: 650px;
+  padding: 180px;
+  padding-top: 230px;
+}
+
+.hat {
+  position: fixed;
+  width: 100%;
+  border-top: 8px solid #1BACC5;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+}
+
 
