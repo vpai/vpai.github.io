@@ -16,10 +16,6 @@ $container-width: 550px;
   float: left;
 }
 
-.padding-side {
-  padding: 0px 20px;
-}
-
 .text-center {
   text-align: center;
 }
@@ -73,9 +69,19 @@ $container-width: 550px;
   margin-top: 50px; }
 
 .post {
+  padding: 150px 0;
+  width: 530px;
+
   img {
     width: $container-width;
     border-radius: 5px;
+  }
+
+  p {
+    margin-bottom: 35px;
+    font-size: 0.9em;
+    letter-spacing: initial;
+    line-height: 1.7em;
   }
 }
 
@@ -85,6 +91,7 @@ $container-width: 550px;
   left: 12px;
   text-decoration: none;
   color: black;
+  font-size: 0.8em;
 }
 
 .img-with-caption__container {
@@ -134,6 +141,8 @@ hr.section-break {
   -webkit-transition: color 0.2s;
 }
 
+// new stuff.
+
 .blue {
   color: $blue;
 }
@@ -142,21 +151,24 @@ hr.section-break {
   color: $yellow;
 }
 
-.blue-dotted {
-  border-bottom: 2px dashed $blue;
-}
-
-.yellow-dotted {
-  border-bottom: 2px dashed $yellow;
-}
-
-// new stuff.
-
-.flex-container {
+.flex {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+}
+
+.flex-tall {
   height: 100vh;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
 }
 
 nav {
@@ -217,5 +229,3 @@ section {
   width: 100px;
   border-radius: 100px;
 }
-
-
