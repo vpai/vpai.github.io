@@ -16,13 +16,15 @@ h3 {
   text-transform: uppercase;
 }
 
-.text-small {
-  font-size: 0.85em;
-  color: $light-grey;
+h4 {
+  line-height: 1.2em;
+  font-weight: 400;
+  font-size: 0.9em;
 }
 
-p, h2 {
-  margin-bottom: 35px;
+.text-light {
+  font-size: 0.85em;
+  color: $light-grey;
 }
 
 .theme {

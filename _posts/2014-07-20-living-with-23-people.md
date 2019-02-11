@@ -4,11 +4,14 @@ container: true
 title: Living With 23 People
 location: Le Chateau McAlamo
 tags:
-- community
-- San Francisco
+- sf
 ---
 
-Last month I started a new and exciting chapter in life. I now live in an intentional community with 23 other people (plus Nikon, our furry friend) near the center of San Francisco. I’ve been a part of many different types of communities throughout my upbringing and early adult life, but none quite like this.
+Last month I started a new and exciting chapter in life. I now live in an intentional community with 23 other people (plus Nikon, our furry friend) near the center of San Francisco.
+
+<!--more-->
+
+I’ve been a part of many different types of communities throughout my upbringing and early adult life, but none quite like this.
 
 {% include image_with_caption.html url="/assets/images/living_with_23_people/cheese_plate.jpg" %}
 
@@ -29,7 +32,7 @@ The decision to move meant I had to find a new place by June 1st or be homeless 
 After a day or two, I stumbled across a listing for a home called Le Chateau McAlamo (henceforth referred to as LCA). The post contained pictures of the space and mini blurbs about each of the residents. It also linked me to the house’s website. The people seemed motivated, thoughtful, fun, and family-oriented. I decided to apply — why not? I figured I had no shot. This was sure to be a dead end.
 I took the next couple days to fill out the written application, and was thrilled when I got an email from S, one of the founders of the house, asking to meet up. A few days later it was official, and the next thing I knew I was hauling all my belongings up the stairs of LCA.
 
-## The Home
+<h2 class="theme">The Home</h2>
 
 LCA is located across the street from Alamo Square Park, a half block away from San Francisco’s iconic Painted Ladies.
 
@@ -41,7 +44,7 @@ In total, there are 24 individuals including myself split between these two unit
 Sharing a room was one of the biggest changes of this transition. Many people tell me there’s no way they could do it. I was concerned at first, but it actually doesn’t bother me at all. It makes me feel like a kid again. Shoot, I am a kid. The minor inconveniences are well worth it.
 In addition to the rooms, there are several shared spaces between the two units. The backyard and roof I already mentioned. We are also fortunate to have two fully stocked state-of-the-art kitchens, two living areas, and a cozy fireplace.
 
-## The Community
+<h2 class="theme">The Community</h2>
 
 The McAlamo family is diverse on many dimensions. The age range here spans from 20 years old to over 40. We’re representatives from Canada, Ireland, Australia, Germany, Spain, Iran, India, Singapore, and the US all under one roof. People enjoy and have made careers around all sorts of things, including rock climbing, yoga, biking, cooking, writing, fitness, software and photography.
 What unites the group is a shared commitment to community, a vision that’s bigger than any individual. We value paying it forward, being mindful and aware, looking after one another, collaboration, and being active members of the external community and city. Together these ideas make up the intention in the word intentional. They create positive energy. They are why this type of living situation doesn’t turn to chaos on day 2. For most, these values are implicitly understood and visible through action.
@@ -53,7 +56,7 @@ Every month, all of us contribute to a shared pool of money that’s used toward
 
 None of this happens magically. We have a leadership team that manages a ton of logistics behind the scenes. We have house meetings twice a month to coordinate plans, express gratitude, and voice concerns. We’re also the in the process of the defining roles and point people for various needs. For example, AK manages facilities, AR manages gardening, and AA manages recruiting. The community is a better place when everyone contributes.
 
-## The Future
+<h2 class="theme">The Future</h2>
 
 Intentional communities were never on my radar until I started living in one. There are quite a few similar efforts in SF, many focused on tech:
 The Embassy Network: http://embassynetwork.com/

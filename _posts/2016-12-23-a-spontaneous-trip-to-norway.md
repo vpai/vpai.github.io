@@ -5,12 +5,12 @@ title: A Spontaneous Trip To Norway
 location: Noe Valley, San Francisco
 tags:
 - norway
-- nature
-- northern lights
 - aurora
 ---
 
 It’s 8:25 AM on the morning of December 17th, 2015. I’m at home getting ready for work when I receive the following email from my friend Bharath:
+
+<!--more-->
 
 {% include image_with_caption.html url="/assets/images/norway/email.png" %}
 

@@ -9,7 +9,11 @@ tags:
 - mangoes
 ---
 
-Visiting India is always a treat. While growing up, we would usually go once in three or four years. It had to be during summer because of the school year, and because I was so young I had little control over the schedule. As a result, all trips would involve a predictable string of visits to relatives' homes in Mumbai, Pune, and Kerala (which were fun in their own way!).
+Visiting India is always a treat. While growing up, we would usually go once in three or four years. It had to be during summer because of the school year, and because I was so young I had little control over the schedule.
+
+<!--more-->
+
+As a result, all trips would involve a predictable string of visits to relatives' homes in Mumbai, Pune, and Kerala (which were fun in their own way!).
 
 Over the past few years, I've had the chance to visit the Motherland on my own terms. With a little disposable income under my belt, India feels like a new place. After quitting my job a couple months ago, I decided I would take a two week trip there to meet my mom and sister who were going to be there to do some wedding shopping for my sister's upcoming wedding.
 

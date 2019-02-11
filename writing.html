@@ -1,0 +1,31 @@
+---
+layout: sidebar
+title: Varun Pai - Holla
+---
+
+<h1 class="space-8">Writing</h1>
+
+{% for post in site.posts %}
+<div class="row space-8">
+  <div class="col-xs-12 col-sm-9">
+
+    <div class="space-2">
+      <a href="{{ post.url }}"><h2 class="theme">{{ post.title }}</h2></a>
+      <span class="text-small">{{ post.date | date: '%B %d, %Y' }}</span>
+    </div>
+
+    <span>{{ post.excerpt | strip_html | append: "..." }}</span>
+
+    <ul>
+      {% for category in post.categories %}
+        <li>
+          <h6>
+            <a href="/#!/{{ category }}">{{ category }}</a>
+          </h6>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</div>
+{% endfor %}

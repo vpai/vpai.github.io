@@ -3,3 +3,4 @@ permalink: /:year/:month/:title
 sass:
   sass_dir: _sass
   style: compressed
+excerpt_separator: <!--more-->

@@ -9,9 +9,11 @@ tags:
 - advice
 ---
 
-<h2><b>Dear Cal Freshman,</b></h2>
+Dear Cal Freshman,
 
 Hi, I’m Varun. I studied EECS at Cal, graduated in May of 2013, and now live and work in San Francisco. Chances are we’ll never meet, but if we did I’d want to be friends.
+
+<!--more-->
 
 I’m writing this note because I’m really excited for you. It’s week 1 of college, and you’ve embarked on a journey I ended not too long ago.
 
@@ -30,7 +32,7 @@ What I want to share are some things you can do that can enrich your Berkeley ex
 
 {% include spacer.html %}
 
-##  1. Read the Daily Cal.
+<h2 class="theme"> 1. Read the Daily Cal.</h2>
 
 The Daily Cal is the school newspaper. Read it! It will help you be an informed student, one who know what’s happening. This didn’t really strike me as important when I was in college. I was somewhat apathetic, and as a result often lived in a me-centric world.
 
@@ -41,7 +43,7 @@ Don’t be me. Read the Daily Cal as frequently as possible, even just the front
 
 {% include spacer.html %}
 
-## 2. Date often.
+<h2 class="theme">2. Date often.</h2>
 
 The definition of here date is loose. I guess what I mean is try and develop your dating skills by going on lots of dates. I dated one person for a pretty short span of time in college. I now realize that college was one of the few times in my life that I’ll ever be surrounded by such a high density of similar minded, intelligent, and attractive women.
 
@@ -49,7 +51,7 @@ Guys, practice talking to girls. I still suck at it, that’s why I’m single. 
 
 {% include spacer.html %}
 
-## 3. Take a P.E class every semester.
+<h2 class="theme">3. Take a P.E class every semester.</h2>
 I know you promised yourself you’d never take P.E again after high school, but I highly recommend it for two reasons:
 
 - It’ll force you to incorporate physical activity in your life. Which trust me, you’ll want to do after eating all those chicken rice bowls from Ramonas (which in case you don’t notice soon, are just heaps of steamed rice topped with frozen vegetables and a ladle full of Kikkoman teriyaki sauce, i.e death).
@@ -62,7 +64,7 @@ More generally, take care of yourself, because nobody else will. P.E is an easy 
 
 {% include spacer.html %}
 
-## 4. Become a tour guide.
+<h2 class="theme">4. Become a tour guide.</h2>
 
 This is an opportunity that I definitely regret. I always used to walk around campus and see groups of tour guides showing people around on sunny days. Becoming a tour guide will get you comfortable speaking in front of groups of people, get you out and about, teach you about the history of the campus, and I hear you get a really cool t-shirt that only tour guides get (which by itself is worth it).
 Here’s the application: http://visitors.berkeley.edu/tourguide.shtml
@@ -71,7 +73,7 @@ Maybe you’ll even get to tour some VIPs around?
 
 {% include spacer.html %}
 
-## 5. Spend time outside.
+<h2 class="theme">5. Spend time outside.</h2>
 
 Take time to enjoy the nature that Berkeley has to offer whenever you can. Visit Indian Rock, get lost in the fire trails, run down to the Marina and back, or picnic with your floormates at Lake Anza. I waited till my senior to start regularly napping or tossing around a football on the Glade. MISTAKE.
 
@@ -81,7 +83,7 @@ Try not to become lazy about walking more than 15 minutes to get somewhere. Afte
 
 {% include spacer.html %}
 
-## 6. Take the Teach in Prison DeCal , Wealth and Poverty, and UGBA196 before you graduate.
+<h2 class="theme">6. Take the Teach in Prison DeCal , Wealth and Poverty, and UGBA196 before you graduate.</h2>
 
 The Teach in Prison DeCal (DeCal = a student run class) is extremely eye opening, don’t miss it. You’ll have a chance to tutor inmates at San Quentin State prison and think critically about the incarceration and prison-industrial complex in the US today. The only caveat is that you have to be 21, so you’ll probably have to wait a couple years.
 
@@ -91,7 +93,7 @@ UGBA196 is all about personal finance, and I wish it was a required class. Among
 
 {% include spacer.html %}
 
-## 7. Create a 4 year outline.
+<h2 class="theme">7. Create a 4 year outline.</h2>
 
 There are a couple reasons why it’s good to have (at least at a high level) your semesters planned out:
 
@@ -102,7 +104,7 @@ Please take a semester to study abroad. Do everything you can to make it happen 
 
 {% include spacer.html %}
 
-## 8. Find a mentor.
+<h2 class="theme">8. Find a mentor.</h2>
 
 Finding a mentor is a great idea at any stage in life, but I think especially so in college. Ideally this is a junior or senior whom you respect and has the time to offer advice when you need it. It can also be a professor who you really connect with. If it’s a professor it might be a good idea to formalize the relationship (i.e ask them after knowing them for a while, “would you be willing to be my mentor?”).
 
@@ -111,13 +113,13 @@ Some student organizations, such as AIChe, make finding a mentor easy.
 
 {% include spacer.html %}
 
-## 9. Find a community
+<h2 class="theme">9. Find a community</h2>
 
 Test out student groups in your first and second years, then pick a few activities and commit to them when you’re a junior. Finding a group of people who share a interest is an easy way to make friends and will make Cal feel more like a home away from home.
 
 {% include spacer.html %}
 
-## 10. Learn to cook.
+<h2 class="theme">10. Learn to cook.</h2>
 
 I know you don’t have a kitchen yet, this is more for your later years. Don’t be one of those people who eats out all the time, it’s a waste of money and you’ll poison your body. Instead, find time to cook a few times a week.
 

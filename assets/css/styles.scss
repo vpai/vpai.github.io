@@ -84,8 +84,12 @@
   max-width: 575px;
 
   img {
-    border-radius: 5px;
     width: 100%;
+    border-radius: 2px;
+  }
+
+  p, h2 {
+    margin-bottom: 35px;
   }
 }
 
@@ -172,8 +176,11 @@ main a {
   border-top: 8px solid black;
 }
 
+$avatar-size: 30px;
+
 .avatar {
-  height: 100px;
-  width: 100px;
-  border-radius: 100px;
+  height: $avatar-size !important;
+  width: $avatar-size !important;
+  border-radius: $avatar-size;
+  margin-right: 8px;
 }

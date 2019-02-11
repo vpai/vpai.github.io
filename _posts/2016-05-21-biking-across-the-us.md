@@ -10,7 +10,11 @@ tags:
 ---
 
 It's nearly here — in just a few weeks I'll be hopping on a bicycle and pedaling over
-3800 miles across North America (!). I'll be 1 of 32 humans riding from Portland, Maine west
+3800 miles across North America (!).
+
+<!--more-->
+
+I'll be 1 of 32 humans riding from Portland, Maine west
 to Santa Barbara, California over the course of 2.5 months along the following route:
 
 {% include spacer.html %}

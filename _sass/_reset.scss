@@ -30,11 +30,42 @@ body {
   font-size: 14.5px;
   line-height: 1.55em;
   font-weight: 220;
-  border-top: 12px solid $theme-color;
+  overflow: scroll;
+}
+
+header {
+  height: 12px;
+  background-color: $theme-color;
+  width: 100%;
+  z-index: 5;
+  transition: height 0.15s ease;
+  position: fixed;
+
+  &>div {
+    height: 100%;
+  }
+
+  h3 {
+    display: none;
+  }
+}
+
+header.sticky {
+  height: 40px;
+
+  h3 {
+    display: initial;
+    color: white;
+  }
 }
 
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 // Font.

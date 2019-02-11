@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/styles.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
 
+    <script defer type="text/javascript" src="/assets/js/base.js"></script>
+
     <link rel="alternate" type="application/rss+xml" title="Bakery Store RSS" href="/feed.xml">
 
 		<script>
@@ -28,6 +30,14 @@
 	</head>
 
 	<body>
+    <header>
+      <div class="row middle-xs">
+        <div class="col-xs-12 text-center">
+          <h3 class="title">{{ page.title }}</h3>
+        </div>
+      </div>
+    </header>
+
     <div class="container">
       {{ content }}
     </div>

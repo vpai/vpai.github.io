@@ -8,7 +8,11 @@ tags:
 - engineering
 ---
 
-You’re been hired as an engineer at a company you love. The team is relatively small and the words “full stack” got you excited when you spoke to the recruiter. You feel lucky, and wonder how crazy it is that life can change so fast so quickly. It’s a realization you never want to forget. Just a few weeks ago you were deep in the stress of the job hunt. Now you're on cloud nine.
+You’re been hired as an engineer at a company you love. The team is relatively small and the words “full stack” got you excited when you spoke to the recruiter.
+
+<!--more-->
+
+You feel lucky, and wonder how crazy it is that life can change so fast so quickly. It’s a realization you never want to forget. Just a few weeks ago you were deep in the stress of the job hunt. Now you're on cloud nine.
 
 Your role feels dynamic — on Monday you’re building a new user interface and on Thursday you’re helping keep the site up. You’re here to write code — type sequences of characters that few others at your company can — but you feel proud that your job is more than that. You were hired because of your love for crafting delightful products, for your ability to help bring life to something that makes other people’s lives better. In the hiring panel there was a 45 minute slot slated for someone to assess these “product” skills. Questions ranged from “what are your favorite products in the world? why?” to “how would you change this flow of ours?”. There was a satisfying human component to this work, a creative balance to the logic and focus needed to code, that got you up every morning. You feel light.
 

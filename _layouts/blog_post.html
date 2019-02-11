@@ -3,12 +3,16 @@ layout: sidebar
 ---
 
 <div class="post">
-  <div class="space-7">
-    <h1>{{ page.title }}</h1>
-    <span class="text-small">{{ page.location }} {{ page.date | date: "%A, %B %-d, %Y" }}</span>
+  <div class="space-8">
+    <h1 class="post--title space-2">{{ page.title }}</h1>
+
+    <div class="row col-xs-12 middle-xs">
+      <img class="avatar" src="/assets/images/pf/self.png" />
+      <span class="text-light"><span class="theme">From</span> {{ page.location }} <span class="theme">on</span> {{ page.date | date: "%B %-d, %Y" }}</span>
+    </div>
   </div>
 
-  <ul class="space-7">
+  <ul class="space-8">
     {% for tag in page.tags %}
       <li class="tag">{{ tag }}</li>
     {% endfor %}
