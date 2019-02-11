@@ -1,7 +1,7 @@
 ---
 layout: post
 container: true
-title: I'm riding my 🚲 across 🇺🇸 this summer
+title: I'm cycling across North America this summer
 location: NOPA, San Francisco
 tags:
 - biking

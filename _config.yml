@@ -1,2 +1,5 @@
 url: http://varunpai.me
 permalink: /:year/:month/:title
+sass:
+  sass_dir: _sass
+  style: compressed

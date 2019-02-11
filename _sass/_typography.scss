@@ -1,0 +1,30 @@
+// Headers.
+
+h1 {
+  font-size: 2.3em;
+  font-weight: 900;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.text-small {
+  font-size: 0.85em;
+  color: $light-grey;
+}
+
+p, h2 {
+  margin-bottom: 35px;
+}
+
+.theme {
+  color: $theme-color;
+}

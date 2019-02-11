@@ -11,9 +11,9 @@
     <meta name="description" content="The internet home of Varun Pai, entrepreneur and good guy.">
 
 		<title>{{ page.title }}</title>
-		<link rel="stylesheet" type="text/css" href="/assets/css/reset.css"/>
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="/assets/css/social.css"/>
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
     <link rel="alternate" type="application/rss+xml" title="Bakery Store RSS" href="/feed.xml">
 
 		<script>
@@ -28,6 +28,8 @@
 	</head>
 
 	<body>
-    {{ content }}
+    <div class="container">
+      {{ content }}
+    </div>
 	</body>
 </html>

@@ -29,8 +29,6 @@ The decision to move meant I had to find a new place by June 1st or be homeless 
 After a day or two, I stumbled across a listing for a home called Le Chateau McAlamo (henceforth referred to as LCA). The post contained pictures of the space and mini blurbs about each of the residents. It also linked me to the house’s website. The people seemed motivated, thoughtful, fun, and family-oriented. I decided to apply — why not? I figured I had no shot. This was sure to be a dead end.
 I took the next couple days to fill out the written application, and was thrilled when I got an email from S, one of the founders of the house, asking to meet up. A few days later it was official, and the next thing I knew I was hauling all my belongings up the stairs of LCA.
 
-{% include spacer.html %}
-
 ## The Home
 
 LCA is located across the street from Alamo Square Park, a half block away from San Francisco’s iconic Painted Ladies.
@@ -42,8 +40,6 @@ The community occupies two independent units in a four unit building, each unit 
 In total, there are 24 individuals including myself split between these two units. Nobody has their own room — some rooms contain as few as 2 people, and some as many as 4 (two bunks). I share a room with M, a rising senior at the University of Viriginia. He’s a pretty amazing dude.
 Sharing a room was one of the biggest changes of this transition. Many people tell me there’s no way they could do it. I was concerned at first, but it actually doesn’t bother me at all. It makes me feel like a kid again. Shoot, I am a kid. The minor inconveniences are well worth it.
 In addition to the rooms, there are several shared spaces between the two units. The backyard and roof I already mentioned. We are also fortunate to have two fully stocked state-of-the-art kitchens, two living areas, and a cozy fireplace.
-
-{% include spacer.html %}
 
 ## The Community
 
@@ -69,8 +65,6 @@ Though coliving isn’t big in the U.S yet, I think it’s on its way there, esp
 Apart from the fun, living here has been an incredible learning experience for me. It’s made me more humble, understanding, and empathetic. It’s made me realize that community is one of the things I value most. It’s opened my eyes up to new perspectives and people in different stages of their lives, some of whom I would have ever otherwise crossed paths with. It’s augmented my world view for the better.
 
 What’s most exciting is that this is just the beginning. There’s still a lot to do, a lot to build, a lot to share, and I’m really looking forward to it.
-
-{% include spacer.html %}
 
 *Originally posted on [Medium](https://medium.com/@lifeofpai/living-with-23-people-496e87f79964#.wmes1f7gh).*
 
