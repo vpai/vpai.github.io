@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 container: true
 title: India 2017 (Funemployed)
 location: Noe Valley, SF

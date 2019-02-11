@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 container: true
 title: Dear Cal Freshman
 location: My apartment in NOPA, SF

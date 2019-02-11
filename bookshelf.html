@@ -1,0 +1,26 @@
+---
+layout: sidebar
+title: Varun Pai - Bookshelf
+---
+
+<div class="space-6">
+  <h1>Bookshelf</h1>
+  <span class="text-small">Titles I've read.</span>
+</div>
+
+<h2 class="theme">2019</h2>
+<div class="row">
+  {%
+    include book_cover.html
+      title="Turtles All The Way Down"
+      image="/assets/images/books/turtles-all-the-way-down.jpg"
+      stars=5
+  %}
+
+  {%
+    include book_cover.html
+      title="Educated"
+      image="/assets/images/books/educated.jpg"
+  %}
+</div>
+

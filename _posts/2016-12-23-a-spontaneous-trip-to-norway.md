@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 container: true
 title: A Spontaneous Trip To Norway
 location: Noe Valley, San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 container: true
 title: The Full Stack Engineer
 location: Noe Valley, SF

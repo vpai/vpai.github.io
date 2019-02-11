@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 container: true
 title: I'm cycling across North America this summer
 location: NOPA, San Francisco

@@ -1,0 +1,20 @@
+---
+layout: sidebar
+---
+
+<div class="post">
+  <div class="space-7">
+    <h1>{{ page.title }}</h1>
+    <span class="text-small">{{ page.location }} {{ page.date | date: "%A, %B %-d, %Y" }}</span>
+  </div>
+
+  <ul class="space-7">
+    {% for tag in page.tags %}
+      <li class="tag">{{ tag }}</li>
+    {% endfor %}
+  </ul>
+
+  {{ content }}
+
+  {% include disqus.html %}
+</div>

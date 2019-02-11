@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 container: true
 title: I'm Moving To NYC
 location: San Jose, CA

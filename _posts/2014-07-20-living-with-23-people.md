@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog_post
 container: true
 title: Living With 23 People
 location: Le Chateau McAlamo
