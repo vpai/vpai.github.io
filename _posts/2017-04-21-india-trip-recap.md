@@ -5,7 +5,6 @@ title: India 2017 (Funemployed)
 location: Noe Valley, SF
 tags:
 - india
-- funemployed
 - mangoes
 ---
 

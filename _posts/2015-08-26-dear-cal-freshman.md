@@ -5,8 +5,7 @@ title: Dear Cal Freshman
 location: My apartment in NOPA, SF
 tags:
 - college
-- Berkeley
-- advice
+- berkeley
 ---
 
 Dear Cal Freshman,

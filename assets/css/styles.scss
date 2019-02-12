@@ -84,7 +84,6 @@
   max-width: 575px;
 
   img {
-    width: 100%;
     border-radius: 2px;
   }
 
@@ -100,6 +99,10 @@
   text-decoration: none;
   color: black;
   font-size: 0.8em;
+}
+
+.img-with-caption__image {
+  width: 100%;
 }
 
 .img-with-caption__container {

@@ -5,7 +5,7 @@ title: I'm Moving To NYC
 location: San Jose, CA
 tags:
 - life
-- transition
+- nyc
 ---
 
 Tomorrow morning, after 23 years of living in the Bay Area, I'm taking a one way from SF to NYC (!!!)

@@ -4,9 +4,8 @@ container: true
 title: I'm cycling across North America this summer
 location: NOPA, San Francisco
 tags:
-- biking
-- usa
-- bike & build
+- sport
+- summer
 ---
 
 It's nearly here — in just a few weeks I'll be hopping on a bicycle and pedaling over
