@@ -14,7 +14,7 @@ function onScroll(e) {
 document.addEventListener('scroll', onScroll);
 
 // Don't animate menu if the referrer is the current site.
-if (document.referrer.includes("localhost:4000")) {
+if (document.referrer.includes("varunpai.com")) {
   var menuItems = document.querySelectorAll('.fade-in')
 
   menuItems.forEach(function(menuItem) {
