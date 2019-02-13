@@ -4,3 +4,20 @@ sass:
   sass_dir: _sass
   style: compressed
 excerpt_separator: <!--more-->
+
+navigation:
+  - title: About
+    url: /
+    fade: one
+  - title: Projects
+    url: /projects
+    fade: two
+  - title: Writing
+    url: /writing
+    fade: three
+  - title: Bookshelf
+    url: /bookshelf
+    fade: four
+  - title: Holla
+    url: /holla
+    fade: five

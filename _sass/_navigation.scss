@@ -71,9 +71,19 @@ ul > li a {
   display: inline-block;
   color: inherit;
 
+  &.active, &:hover {
+    padding-left: 8px;
+    position: relative;
+    left: -13px;
+    border-left: 5px solid;
+  }
+
+  &.active {
+    border-color: $grey-l2;
+  }
+
   &:hover {
-    border-left: 6px solid $theme-color;
-    padding-left: 7px;
+    border-color: $theme-color;
     color: $theme-color;
   }
 }
