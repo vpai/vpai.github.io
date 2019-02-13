@@ -1,4 +1,7 @@
 <div class="space-6 col-xs-12 col-sm-3">
-  <img class="book-cover space-2" src="{{ include.image }}" />
+  <a class="book-cover space-2" href="{{ include.url }}">
+    <img class="book-cover__image" src="{{ include.image }}" />
+  </a>
+
   <h4 class="space-1">{{ include.title }}</h4>
 </div>

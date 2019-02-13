@@ -3,4 +3,19 @@ layout: sidebar
 title: Varun Pai - Holla
 ---
 
-<h1>Holla</h1>
+<div class="space-6">
+  <h1>Holla</h1>
+  <span class="text-small">Draft me an email here.</span>
+</div>
+
+<form class="contact-form" action="https://formspree.io/varunpai12@gmail.com" method="POST">
+  <label for="name" class="space-1">Name:</label>
+  <input type="text" name="name" id="name" class="space-5" />
+
+  <label for="message" class="space-1">Message:</label>
+  <textarea rows="10" cols=80" name="message" id="message" class="space-5"></textarea>
+
+  <button type="submit">Send Email</button>
+</form>
+
+

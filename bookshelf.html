@@ -10,17 +10,15 @@ title: Varun Pai - Bookshelf
 
 <h2 class="space-6 theme">2019</h2>
 <div class="row">
-  {%
-    include book_cover.html
-      title="Turtles All The Way Down"
-      image="/assets/images/books/turtles-all-the-way-down.jpg"
-      stars=5
-  %}
 
-  {%
-    include book_cover.html
-      title="Educated"
-      image="/assets/images/books/educated.jpg"
-  %}
+  {% for post in site.posts %}
+    {% if post.tags contains "book review" %}
+      {% capture title %}{{ post.title }}{% endcapture %}
+      {% capture image %}{{ post.image }}{% endcapture %}
+      {% capture url %}{{ post.url }}{% endcapture %}
+
+      {% include book_cover.html title=title image=image url=url %}
+    {% endif %}
+  {% endfor %}
 </div>
 

@@ -1,0 +1,79 @@
+// Fade in menu items;
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fade-in {
+  opacity: 0;
+
+  -webkit-animation: fadeIn 0.9s ease 1 forwards;
+  -moz-animation: fadeIn 0.9s ease 1 forwards;
+  -o-animation: fadeIn 0.9s ease 1 forwards;
+  animation: fadeIn 0.9s ease 1 forwards;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.15s;
+  -moz-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.fade-in.four {
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.fade-in.five {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul > li {
+  margin-bottom: 6px;
+}
+
+ul > li a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+
+  &:hover {
+    border-left: 6px solid $theme-color;
+    padding-left: 7px;
+    color: $theme-color;
+  }
+}

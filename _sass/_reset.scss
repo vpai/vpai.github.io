@@ -1,27 +1,5 @@
 // Globals.
 
-ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-ul > li {
-  margin-bottom: 6px;
-}
-
-ul > li a {
-  text-decoration: none;
-  display: inline-block;
-  color: inherit;
-
-  &:hover {
-    border-left: 6px solid $theme-color;
-    padding-left: 7px;
-    color: $theme-color;
-  }
-}
-
 body {
   height: 100vh;
   padding: 0;
