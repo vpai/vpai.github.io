@@ -30,3 +30,13 @@ h4 {
 .theme {
   color: $theme-color;
 }
+
+.underline {
+  padding: 1.5px;
+  border-bottom: 1px dotted $theme-color;
+
+  &:hover {
+    background-color: $theme-color;
+    color: white;
+  }
+}
