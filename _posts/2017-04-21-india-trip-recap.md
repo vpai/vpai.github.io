@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 container: true
-title: India 2017 (Funemployed)
+title: India Summer 2017
 location: Noe Valley, SF
 tags:
 - india

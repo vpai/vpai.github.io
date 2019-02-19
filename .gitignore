@@ -1,4 +1,4 @@
 *.swp
 .DS_Store
-drafts
+/drafts
 _site
