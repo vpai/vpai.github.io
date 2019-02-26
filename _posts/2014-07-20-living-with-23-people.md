@@ -59,9 +59,11 @@ None of this happens magically. We have a leadership team that manages a ton of 
 <h2 class="theme">The Future</h2>
 
 Intentional communities were never on my radar until I started living in one. There are quite a few similar efforts in SF, many focused on tech:
-The Embassy Network: http://embassynetwork.com/
-Campus: http://buildcampus.com/
-TheGlint: http://theglint.com/
+
+- The Embassy Network: http://embassynetwork.com/
+- Campus: http://buildcampus.com/
+- TheGlint: http://theglint.com/
+
 Lots more listed here: http://www.sfgate.com/bayarea/article/Tech-entrepreneurs-revive-communal-living-4988388.php
 
 Though coliving isn’t big in the U.S yet, I think it’s on its way there, especially with the flux of more and more people (especially young people) into big cities. Like Airbnb, the concept isn’t new. People used to live like this. They still do in many other parts of the world. In India, for example, it’s common for 3 or more generations of joint families to live together in a single household. It’s how my Dad grew up for large parts of his childhood. That’s what LCA reminds me of. It’s the same, just without the blood relation. Trust is built in.

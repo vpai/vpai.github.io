@@ -10,9 +10,7 @@ tags:
 
 Tomorrow morning, after 23 years of living in the Bay Area, I'm taking a one way from SF to NYC (!!!)
 
-<!--more-->
-
-Of chief importance on the eve of this life event are the weights of my 2 enormous checked in bags. I am envisioning major airport struggles in the AM. Essentials I'm taking include: clothes, toiletries, shoes, a magic bullet with an extra mug, an alarm clock, an iron, a large Indian flag, all my camping gear, some books, and a foam roller. Though honestly space is tight and it's not looking so good for the foam roller right now. Might be a Thanksgiving bring-back item (sorry quads).
+Of chief importance on the eve of this life event are the weights of my 2 enormous checked in bags. <!--more--> I am envisioning major airport struggles in the AM. Essentials I'm taking include: clothes, toiletries, shoes, a magic bullet with an extra mug, an alarm clock, an iron, a large Indian flag, all my camping gear, some books, and a foam roller. Though honestly space is tight and it's not looking so good for the foam roller right now. Might be a Thanksgiving bring-back item (sorry quads).
 
 {% include image_with_caption.html url="/assets/images/moving_to_nyc/luggage.jpg" caption="My bags." %}
 

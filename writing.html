@@ -9,14 +9,16 @@ title: Varun Pai - Holla
 <div class="row space-8">
   <div class="col-xs-12 col-sm-9">
 
-    <div class="space-2">
+    <div class="space-3">
       <a href="{{ post.url }}"><h2 class="theme">{{ post.title }}</h2></a>
-      <span class="text-small">{{ post.date | date: '%B %d, %Y' }}</span>
+      <span class="text-light"><i>{{ post.date | date: '%B %d, %Y' }}</i></span>
     </div>
 
-    <p class="space-3">{{ post.excerpt | strip_html | append: "..." }}</p>
+    <p class="space-3">
+      {{ post.excerpt | strip_html | append: "..." }}
+    </p>
 
-    <ul class="space-3">
+    <ul class="space-5">
       {% for tag in post.tags %}
         <li class="tag">{{ tag }}</li>
       {% endfor %}

@@ -10,11 +10,9 @@ tags:
 
 It’s 8:25 AM on the morning of December 17th, 2015. I’m at home getting ready for work when I receive the following email from my friend Bharath:
 
-<!--more-->
-
 {% include image_with_caption.html url="/assets/images/norway/email.png" %}
 
-It’s an insane flight deal to Norway via a subscription to his friend Scott’s [cheap flight mailing list](https://scottscheapflights.com/). Thing is, these tickets are for November 2016, almost a full year in the future. Though it's an exciting prospect, I’m hesitant. A year out is a long time, what if something else important comes up? Norway also isn't exactly the cheapest destination. A few days later, things have changed:
+It’s an insane flight deal to Norway via a subscription <!--more--> to his friend Scott’s [cheap flight mailing list](https://scottscheapflights.com/). Thing is, these tickets are for November 2016, almost a full year in the future. Though it's an exciting prospect, I’m hesitant. A year out is a long time, what if something else important comes up? Norway also isn't exactly the cheapest destination. A few days later, things have changed:
 
 {% include image_with_caption.html url="/assets/images/norway/yolo.png" %}
 
@@ -26,7 +24,7 @@ In no, time it’s late October and we’re off.
 
 {% include image_with_caption.html url="/assets/images/norway/kal_lounge.png" caption="The KAL Lounge at LAX." %}
 
-{% include spacer.html %}
+
 
 # Oslo
 
@@ -46,7 +44,7 @@ The train journey to Bergen is among the most beautful train rides I’ve ever b
 
 The train stops abruptly in Ål, and we are told to offboard. We’re being moved to buses for the rest of the journey, apparently due a “power outage” but we’re pretty certain it’s a worker's strike. We take the bus the rest of the way to Flåm.
 
-{% include spacer.html %}
+
 
 # Flåm
 
@@ -69,7 +67,7 @@ US work hours.
 
 That night we land in Norway's second biggest city, Bergen.
 
-{% include spacer.html %}
+
 
 # Bergen
 
@@ -127,7 +125,7 @@ small hole-in-the-wall handmade guitar shop. We stop and chat with Victor, the o
 That evening, despite ambitions of checking out [Hulen](https://www.google.com/maps/place/Hulen+i+Bergen/@60.3847441,5.3234329,17z/data=!4m5!3m4!1s0x0:0x1124bc99cb956738!8m2!3d60.3847592!4d5.3253651) (a concert venue inside
 a cave), we nap and don't wake up until late at night. It's okay. Hey, we were heroes for a day.
 
-{% include spacer.html %}
+
 
 # Tromso & The Northern Lights
 
@@ -174,7 +172,7 @@ region are killer. We take the Fløya down and chill at [our favorite cafe in to
 
 {% include image_with_caption.html url="/assets/images/norway/tromso.png" caption="View overlooking Tromsō." %}
 
-{% include spacer.html %}
+
 
 # Lofoten Islands
 
@@ -226,7 +224,7 @@ That night we cook tomato soup and grilled cheese for dinner, and because it's t
 some ice cream and warm cookies for dessert. Oh, and we randomly watch Leo's new documentary "Before
 The Flood."
 
-{% include spacer.html %}
+
 
 # Back In Oslo
 

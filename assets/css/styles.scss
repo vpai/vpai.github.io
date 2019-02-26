@@ -110,13 +110,25 @@
 
 .post {
   max-width: 575px;
+}
 
+.post__content {
   img {
     border-radius: 2px;
   }
 
   p, h2, blockquote {
     margin-bottom: 35px;
+  }
+
+  ul {
+    list-style-type: initial;
+    padding: 0 40px;
+    margin-bottom: 35px;
+
+    li {
+      margin-bottom: 3px;
+    }
   }
 }
 
@@ -131,18 +143,6 @@
 
 .img-with-caption__image {
   width: 100%;
-}
-
-.img-with-caption__container {
-  position: relative;
-
-}
-
-.img-with-caption__caption {
-  position: absolute;
-  left: 558px;
-  bottom: 0px;
-  width: 100px;
 }
 
 // TAGS.

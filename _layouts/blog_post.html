@@ -18,7 +18,9 @@ layout: sidebar
     {% endfor %}
   </ul>
 
-  {{ content }}
+  <div class="post__content">
+    {{ content }}
+  </div>
 
   {% include disqus.html %}
 </div>
