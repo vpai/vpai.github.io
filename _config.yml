@@ -9,15 +9,9 @@ navigation:
   - title: About
     url: /
     fade: one
-  - title: Projects
-    url: /projects
-    fade: two
   - title: Writing
     url: /writing
     fade: three
-  - title: Bookshelf
-    url: /bookshelf
-    fade: four
   - title: Holla
     url: /holla
     fade: five
